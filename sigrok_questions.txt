@@ -1,0 +1,8 @@
+Sigrok Questions
+
+1)  Is there any way to run some code when it reaches the end of the samples ?
+
+At the moment I am using a timeout of five time preamble period but if the waveform is cut out too tightly then there sometimes isn't 5 x of low signal on the end. The code passes data for stacked decoders on DECODE_TIMEOUT.
+
+2)  The ook decoder actually contains three individual decoders which have their own options. Is there any way to hide the options of one decoder while using another ?
+
